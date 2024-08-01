@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from 'react'
 
-import { transcriptService } from './service/transcript';
+// import { transcriptService } from './service/transcript';
 import { client } from './amplifyClient';
 
 function App() {
