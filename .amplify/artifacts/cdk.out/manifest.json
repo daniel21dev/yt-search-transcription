@@ -1,0 +1,144 @@
+{
+  "version": "36.0.0",
+  "artifacts": {
+    "amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/a97c5d21e8d3cc3e980b67ae013e56415e05ecccf200c26b49c8e41c37885c53.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5.assets"
+      ],
+      "metadata": {
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/function/say-hello-lambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "sayhellolambdaServiceRole4BCAA6E2"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/function/say-hello-lambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "sayhellolambdaEFA46D92"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/function/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/function/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/function/amplifyytsearchtranscription52733sandbox9bc33b2da5functionsayhellolambda2C19368ARef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyytsearchtranscription52733sandbox9bc33b2da5functionsayhellolambda2C19368ARef"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/function.NestedStack/function.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "function1351588B"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/definedFunctions": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "definedFunctions"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-ytsearchtranscription-52733-sandbox-9bc33b2da5"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}

@@ -2,13 +2,16 @@ import './App.css'
 import { useState } from 'react'
 
 import { transcriptService } from './service/transcript';
+import { client } from './amplifyClient';
 
 function App() {
   const [url, setUrl] = useState<string>('')
 
   const getTranscript = async () => {
     try {
-      transcriptService.getTranscript(url)
+      await client.queries.sayHello({
+        name: "amplify"
+      })
     } catch (error) {
       console.error(error)
     }
